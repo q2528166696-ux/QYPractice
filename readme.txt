@@ -27,3 +27,36 @@ git remote add origin + url---連接遠程倉庫
 git push -u origin -------------向遠程推送代碼
 git clone + url -----------------克隆遠程倉庫代碼
 git checkout 分支  -------------切換分支
+
+正常流程
+在新電腦獲取代碼
+1，克隆遠程代碼     git clone + url
+2，切換分支            git checkout 分支
+
+在新電腦進行開發
+1，切換dev進行開發   git checkout dev
+2，把master分支合并到dev   git merge master
+3，修改代碼
+4，提交代碼：git add . -----> git commit -m' ' -----> git push origin dev
+
+回家繼續寫代碼
+1，切換到dev分支進行開發  git checkout dev
+2，拉代碼 	git pull origin dev
+3，繼續寫代碼
+4，提交代碼：git add .---->git commit -m' ' -----> git push origin dev
+
+開發完畢要上綫
+1，將dev分支合并到master，進行上綫		git checkout master---->git marge dev ----> git push origin master
+2，把dev分支推到遠程	git checkout dev---->git merge master---->git push origin dev
+
+
+
+
+
+
+
+
+
+
+
+
