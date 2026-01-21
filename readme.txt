@@ -11,3 +11,13 @@ git log------查看版本
 git reflog---查看所有版本
 git checkout ------修改後紅回滾到綠
 
+分支以及修復bug
+git branch -------------------查看分支
+git branch +（分支名）------建立新分支
+git checkout + （分支名）---切換分支
+git merge（master） + （分支名）---- 合并
+可能產生衝突，手動修改
+git branch -d + （分支名）----------刪除分支
+
+工作流
+git
