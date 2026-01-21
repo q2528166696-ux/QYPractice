@@ -21,3 +21,9 @@ git branch -d + （分支名）----------刪除分支
 
 工作流
 git
+
+github
+git remote add origin + url---連接遠程倉庫
+git push -u origin -------------向遠程推送代碼
+git clone + url -----------------克隆遠程倉庫代碼
+git checkout 分支  -------------切換分支
