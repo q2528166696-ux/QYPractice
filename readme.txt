@@ -33,7 +33,7 @@ git checkout 分支  -------------切換分支
 1，克隆遠程代碼     git clone + url
 2，切換分支            git checkout 分支
 
-在新電腦進行開發
+在公司新電腦進行開發
 1，切換dev進行開發   git checkout dev
 2，把master分支合并到dev   git merge master
 3，修改代碼
@@ -49,7 +49,9 @@ git checkout 分支  -------------切換分支
 1，將dev分支合并到master，進行上綫		git checkout master---->git marge dev ----> git push origin master
 2，把dev分支推到遠程	git checkout dev---->git merge master---->git push origin dev
 
-
+if沒有推到github
+回家之後繼續開發，推到github
+用公司電腦 git pull origin dev，再繼續手動添加修改
 
 
 
