@@ -52,13 +52,3 @@ git checkout 分支  -------------切換分支
 if沒有推到github
 回家之後繼續開發，推到github
 用公司電腦 git pull origin dev，再繼續手動添加修改
-
-
-
-
-
-
-
-
-
-
