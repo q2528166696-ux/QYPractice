@@ -52,3 +52,15 @@ git checkout 分支  -------------切換分支
 if沒有推到github
 回家之後繼續開發，推到github
 用公司電腦 git pull origin dev，再繼續手動添加修改
+
+快速解決衝突
+安裝beyond compare
+git中配置
+git config --local merge.tool bc3
+git config --local mergetool.path 'xxxxxxx' 
+git config -- local mergetool.keepBackup false
+應用解決衝突
+git mergetool
+git rebase 分支--------保持代碼提交整潔
+git log --graph --pretty=format:"%h %s"-------記錄圖形展示
+
